@@ -1,0 +1,11 @@
+.navbar-css {
+  background: rgb(83, 159, 201);
+}
+.link-container {
+  display: flex;
+}
+@media (max-width: 400px) {
+  .link-container {
+    flex-direction: column;
+  }
+}
